@@ -52,3 +52,21 @@
 .level-five .field .purple{
     flex-grow: 2;
 }
+
+
+.level-six .field{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.level-six .field .blue{
+    flex-grow: 3;
+}
+.level-six .field .red{
+    flex-grow: 2;
+}
+.level-six .field .purple{
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
