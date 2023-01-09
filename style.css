@@ -70,3 +70,8 @@
     align-self: flex-start;
 }
 
+
+.level-seven .field{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
