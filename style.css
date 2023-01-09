@@ -1,0 +1,23 @@
+.level-zero .field{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.level-zero .field .red{
+    align-self: flex-start;
+}
+
+.level-one .field{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+.level-two .field{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
