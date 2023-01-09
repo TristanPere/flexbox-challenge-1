@@ -75,3 +75,12 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+
+.level-eight .field{
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
+.level-eight .field .purple{
+    flex-grow: 2;
+}
