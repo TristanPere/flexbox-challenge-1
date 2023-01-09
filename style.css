@@ -3,7 +3,6 @@
     flex-direction: row;
 
 }
-
 .level-zero .field .red{
     align-self: flex-start;
 }
@@ -27,4 +26,26 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+}
+
+.level-four .field{
+    display: flex;
+    justify-content: center;
+}
+.level-four .field .red{
+    align-self: flex-end;
+}
+.level-four .field .blue{
+    align-self: center;
+}
+.level-four .field .purple{
+    align-self: flex-start;
+}
+
+
+.level-five .field{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
 }
