@@ -1,5 +1,8 @@
-.level-zero .field{
+.field{
     display: flex;
+}
+
+.level-zero .field{
     flex-direction: row;
 
 }
@@ -8,14 +11,12 @@
 }
 
 .level-one .field{
-    display: flex;
     justify-content: flex-start;
     align-items: flex-end;
 }
 
 
 .level-two .field{
-    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -23,13 +24,11 @@
 
 
 .level-three .field{
-    display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 
 .level-four .field{
-    display: flex;
     justify-content: center;
 }
 .level-four .field .red{
@@ -44,8 +43,12 @@
 
 
 .level-five .field{
-    display: flex;
     flex-direction: row;
-    justify-content: stretch;
-    align-items: stretch;
+    justify-content: center;
+}
+.level-five .field .red{
+    flex-grow: 2;
+}
+.level-five .field .purple{
+    flex-grow: 2;
 }
